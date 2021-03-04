@@ -1,10 +1,28 @@
-# gekko-quasar-ui
-An UI port for gekko trading bot using Quasar framework.
+# gekko-quasar-ui  
+  
+An UI port for gekko trading bot using Quasar framework.  
+  
+# What i changed?  
+  
+I compiled packages with quasar/dev@1 (ES6) and upload to github. Why? Because when i tested something and changed stuff was high probability that something crash. Then i always rm -rf gekko folder and start over from scratch. Now i have for myself some backup.  
+  
+I added button and code (code is copy from one other project) for Restart stopped gekko  
+  
+I changed CSS because all white was not good for my eyes. Now is red/gray but i need to change to something better  
+  
+Removed footer bar because it is unnecessary  
+  
+Remove documentation icon in top bar  
+  
+Added some info labels when occur latest trade (date with hour), market fee, and portfolio status (FIAT and assets)  
 
-#What i do?  
+# How to install?
+Go to your gekko/web folder for example cd /home/user/gekko/web (terminal) and delete all data with rm -rf * (be carefull). Then clone with git clone this repo.  
+Change file UIconfig.js in web/vue/dist  
 
-
-#Original from author:
+Remove unnecessary files (readme.md, picture folder...)  
+  
+# Original from author:
 
 ## Guidance on strategy indicator naming conventions
 
