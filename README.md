@@ -17,9 +17,17 @@ Remove documentation icon in top bar
 Added some info labels when occur latest trade (date with hour), market fee, and portfolio status (FIAT and assets)  
 
 
-//TO-DO list:
-All...
-
+//TO-DO list:  
+All...  
+  
+## Screenshots  
+  
+![image1](img/img5.png?raw=true "Screenshot 1")
+![image2](img/img1.png?raw=true "Screenshot 2")
+![image3](img/img2.png?raw=true "Screenshot 3")
+![image4](img/img3.png?raw=true "Screenshot 4")
+![image5](img/img4.png?raw=true "Screenshot 5")
+  
 # How to install?
 Go to your gekko/web folder for example cd /home/user/gekko/web (terminal) and delete all data with rm -rf * (be carefull). Then clone with git clone this repo.  
 Change file UIconfig.js in web/vue/dist  
@@ -95,11 +103,3 @@ The 'topleft' will plot the indicator on the top chart (below the market chart) 
 If you like the ported UI, drop me some coins for coffee ;)
 
 ***BTC: 191hR9AftcrGH2Vb29ogPBoUjFowsvAMrk***
-
-## Screenshots
-
-![image1](img/img5.png?raw=true "Screenshot 1")
-![image2](img/img1.png?raw=true "Screenshot 2")
-![image3](img/img2.png?raw=true "Screenshot 3")
-![image4](img/img3.png?raw=true "Screenshot 4")
-![image5](img/img4.png?raw=true "Screenshot 5")
