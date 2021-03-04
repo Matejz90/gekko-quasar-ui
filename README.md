@@ -24,6 +24,13 @@ But important: Better gekko restart (without 404 error or F5), add pannic buy/se
 //bug:  
 I'm using moddedgekko and sometimes i have onTerminatedTrade error. I must resolve this and i already have some ideas how to resolve (add functions to baseTradingMethod.js)...
   
+# How to install?  
+  
+Go to your gekko/web folder for example cd /home/user/gekko/web (terminal) and delete all data with rm -rf * (be carefull). Then clone with git clone this repo.  
+Change file UIconfig.js in web/vue/dist  
+  
+Remove unnecessary files (readme.md, picture folder...)  
+  
 ## Screenshots  
   
 ![image1](img/img5.png?raw=true "Screenshot 1")
@@ -31,12 +38,6 @@ I'm using moddedgekko and sometimes i have onTerminatedTrade error. I must resol
 ![image3](img/img2.png?raw=true "Screenshot 3")
 ![image4](img/img3.png?raw=true "Screenshot 4")
 ![image5](img/img4.png?raw=true "Screenshot 5")
-  
-# How to install?
-Go to your gekko/web folder for example cd /home/user/gekko/web (terminal) and delete all data with rm -rf * (be carefull). Then clone with git clone this repo.  
-Change file UIconfig.js in web/vue/dist  
-
-Remove unnecessary files (readme.md, picture folder...)  
   
 # Original from author:
 
