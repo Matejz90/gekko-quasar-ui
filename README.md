@@ -6,7 +6,7 @@ An UI port for gekko trading bot using Quasar framework.
   
 I compiled packages with quasar/dev@1 (ES6) and upload to github. Why? Because when i tested something and changed stuff was high probability that something crash. Then i always rm -rf gekko folder and start over from scratch. Now i have for myself some backup.  
   
-I added button and code (code is copy from one other project) for Restart stopped gekko  
+I added button and code (code is copy from one other project) for Restart stopped gekko. When you use restart gekko you must F5 or better CTRL+F5 browser window when site load again or you get on enter in live gekko 404 error. Restart does not restart old instance but take config from old, start new instance and delete old instance...Is better than manual insert from scratch...   
   
 I changed CSS because all white was not good for my eyes. Now is red/gray but i need to change to something better  
   
@@ -15,6 +15,10 @@ Removed footer bar because it is unnecessary
 Remove documentation icon in top bar  
   
 Added some info labels when occur latest trade (date with hour), market fee, and portfolio status (FIAT and assets)  
+
+
+//TO-DO list:
+All...
 
 # How to install?
 Go to your gekko/web folder for example cd /home/user/gekko/web (terminal) and delete all data with rm -rf * (be carefull). Then clone with git clone this repo.  
@@ -94,12 +98,8 @@ If you like the ported UI, drop me some coins for coffee ;)
 
 ## Screenshots
 
-![image1](img/gekko-quasar-1.png?raw=true "Screenshot 1")
-![image2](img/gekko-quasar-2.png?raw=true "Screenshot 2")
-![image3](img/gekko-quasar-3.png?raw=true "Screenshot 3")
-![image4](img/gekko-quasar-4.png?raw=true "Screenshot 4")
-![image5](img/gekko-quasar-5.png?raw=true "Screenshot 5")
-![image6](img/gekko-quasar-6.png?raw=true "Screenshot 6")
-![image7](img/gekko-quasar-7.png?raw=true "Screenshot 7")
-![image8](img/gekko-quasar-8.png?raw=true "Screenshot 8")
-![image9](img/gekko-quasar-9.png?raw=true "Screenshot 9")
+![image1](img/img5.png?raw=true "Screenshot 1")
+![image2](img/img1.png?raw=true "Screenshot 2")
+![image3](img/img2.png?raw=true "Screenshot 3")
+![image4](img/img3.png?raw=true "Screenshot 4")
+![image5](img/img4.png?raw=true "Screenshot 5")
