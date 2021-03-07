@@ -30,6 +30,7 @@ This is for moddedgekko!! If you get onTerminatedTrades error (if is buy call fo
   if(!this.onTerminatedTrades)
     this.onTerminatedTrades = function() {};
 ```  
+![image6](img/gekko_fix.png?raw=true "Gekko Fix")
 
 # How to install?  
   
