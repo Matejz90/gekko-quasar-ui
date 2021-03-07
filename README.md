@@ -22,8 +22,14 @@ All...
 But important: Index page with crypto dashboard, better gekko restart (without 404 error or F5), add pannic buy/sell button (i need to decrypth how emmiter work or try with direct api approach), better style, add scratchpad connected to DB (postgres) for saving for example strategy values, integrating GAB (persistent running without open tab) and gekkoga, add option for favorite coins (favorites appear at top of list when you creating new live gekko), add market update buttons so we dont need to update market trough terminal, better date selector (now only hours)...  
   
 //bug:  
-I'm using moddedgekko and sometimes i have onTerminatedTrade error. I must resolve this and i already have some ideas how to resolve (add functions to baseTradingMethod.js)...
+~~I'm using moddedgekko and sometimes i have onTerminatedTrade error. I must resolve this and i already have some ideas how to resolve (add functions to baseTradingMethod.js)...~~  
+This is for moddedgekko!! If you get onTerminatedTrades error (if is buy call for assets too small...) then strat crash. It is problem of moddedgekko not UI. What you can do is that you go to moddedgekko/plugins/tradingAdvisor/baseTradingMethod.js and around line 80 insert (before this.init()):  
   
+```
+  if(!this.onTerminatedTrades)
+    this.onTerminatedTrades = function() {};
+```  
+
 # How to install?  
   
 Go to your gekko/web folder for example cd /home/user/gekko/web (terminal) and delete all data with rm -rf * (be carefull). Then clone with git clone this repo.  
