@@ -23,7 +23,8 @@ But important: Index page with crypto dashboard, better gekko restart (without 4
   
 //bug:  
 ~~I'm using moddedgekko and sometimes i have onTerminatedTrade error. I must resolve this and i already have some ideas how to resolve (add functions to baseTradingMethod.js)...~~  
-This is for moddedgekko!! If you get onTerminatedTrades error (if is buy call for assets too small...) then strat crash. It is problem of moddedgekko not UI. What you can do is that you go to moddedgekko/plugins/tradingAdvisor/baseTradingMethod.js and around line 80 insert (before this.init()):  
+  
+This is for moddedgekko!! If you get onTerminatedTrades error (if is buy call for assets too small...) then strat crash. This is problem of moddedgekko not UI. What you can do is that you go to moddedgekko/plugins/tradingAdvisor/baseTradingMethod.js and around line 80 insert (before this.init()):  
   
 ```
   if(!this.onTerminatedTrades)
